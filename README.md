@@ -54,4 +54,4 @@ This module coordinates the mechanical digging, seed dropping, and watering syst
 - [`JOURNAL.md`](https://github.com/leulesisay05-hub/Terra-X-/blob/main/%23%20terra-x_Development_Journal%20%F0%9F%93%9D.md) — Hourly build log and technical progress notes.
 - [`/firmware`](https://github.com/leulesisay05-hub/Terra-X-/tree/main/Terra-x/firmware) — Arduino code for Recon and Action modules.
 - [`/schematics`](https://github.com/leulesisay05-hub/Terra-X-/tree/main/Terra-x/schematics) — Circuit connection maps and wiring layouts.
-- [`/images`](./images/) — Build photos and demonstration media.
+
