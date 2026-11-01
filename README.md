@@ -25,6 +25,14 @@ This module handles the terrain and soil scanning using an Arduino Uno.
 * **Moisture Sensor:** Connected to an Analog pin (like A0) to read the changing voltage based on soil wetness.
 * **OLED Display:** Uses I2C communication (SDA and SCL pins) to print out real-time stats locally.
 
+---
+
+### 2. Action Module (Rover / Gantry Attachment)
+- **Precision Seeding:** Uses an auger drill powered by a 360° continuous rotation servo to dig planting holes.
+- **Automated Gate:** Actuates a 180° servo to dispense seeds cleanly.
+- **Micro-Dosage:** Triggers a relay-controlled DC pump to apply precise water/fertilizer doses per seed.
+  <img width="1908" height="4032" alt="20261031_145207" src="https://github.com/user-attachments/assets/8b5bbd7d-f107-44eb-b511-5308394ffe9a" />
+<img width="4032" height="1908" alt="20261031_145141" src="https://github.com/user-attachments/assets/898a9662-a89e-4dcf-b180-54b8b31de4af" />
 
 ## System Schematics & Explanation
 
@@ -37,14 +45,6 @@ This module coordinates the mechanical digging, seed dropping, and watering syst
 * **Continuous Servo (Drill):** Spins 360 degrees to power the auger drill mechanism into the soil.
 * **Standard SG90 Servo (Gate):** Moves from 0 to 180 degrees to open and close the seed dispenser chute.
 * **5V Fluid Pump & Relay:** The relay acts as an electronic switch. The Arduino signals the relay, which safely connects the external power source to turn on the water pump without damaging the Arduino.
-
-
-### 2. Action Module (Rover / Gantry Attachment)
-- **Precision Seeding:** Uses an auger drill powered by a 360° continuous rotation servo to dig planting holes.
-- **Automated Gate:** Actuates a 180° servo to dispense seeds cleanly.
-- **Micro-Dosage:** Triggers a relay-controlled DC pump to apply precise water/fertilizer doses per seed.
-  <img width="1908" height="4032" alt="20261031_145207" src="https://github.com/user-attachments/assets/8b5bbd7d-f107-44eb-b511-5308394ffe9a" />
-<img width="4032" height="1908" alt="20261031_145141" src="https://github.com/user-attachments/assets/898a9662-a89e-4dcf-b180-54b8b31de4af" />
 
 
 ---
