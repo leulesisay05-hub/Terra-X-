@@ -27,6 +27,6 @@
 ## 📁 Repository Navigation
 - [`BOM.md`](./BOM.md) — Complete hardware components list.
 - [`JOURNAL.md`](./JOURNAL.md) — Hourly build log and technical progress notes.
-- [`/firmware`](./firmware/) — Arduino code for Recon and Action modules.
+- [`https://github.com/leulesisay05-hub/Terra-X-/tree/main/Terra-x/firmware`](./firmware/) — Arduino code for Recon and Action modules.
 - [`/schematics`](./schematics/) — Circuit connection maps and wiring layouts.
 - [`/images`](./images/) — Build photos and demonstration media.
